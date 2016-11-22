@@ -1,0 +1,26 @@
+{
+  "name": "t3js-cli",
+  "version": "1.0.0",
+  "description": "A generator for T3 components.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Jonathan Kemp",
+  "license": "MIT",
+  "bin": {
+    "t3js": "./bin/index.js"
+  },
+  "dependencies": {
+    "file-exists": "^2.0.0",
+    "fs-extra": "^1.0.0",
+    "inquirer": "^1.2.2",
+    "minimist": "^1.2.0",
+    "replacestream": "^4.0.2",
+    "underscore.string": "^3.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}
