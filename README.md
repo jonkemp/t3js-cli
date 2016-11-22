@@ -27,6 +27,7 @@ cd my-application
 t3js
 ```
 This will ask you a series of questions.
+
 1. Which type of component would you like to create?
 2. What is the name of your component?
 3. What component namespace would you like to use?
