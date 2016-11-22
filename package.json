@@ -4,10 +4,17 @@
   "description": "A generator for T3 components.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "test": "mocha"
   },
   "author": "Jonathan Kemp",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "templates",
+    "lib",
+    "bin"
+  ],
   "license": "MIT",
   "bin": {
     "t3js": "./bin/index.js"
